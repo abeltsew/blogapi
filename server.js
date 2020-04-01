@@ -64,5 +64,5 @@ app.patch('/post/:id', (req, res) => {
     })
 })
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 7000
 app.listen(PORT, () => console.log(`App is runing on port ${PORT}`))
